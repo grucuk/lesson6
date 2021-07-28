@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 6</title>
+</head>
+
+<body>
+    <div class="container" style="position: relative;">
+        <form class="forma" style="position: absolute;display:block" name="f1">
+            <h2 style="margin:10px;padding-left: 20%;font-weight: lighter;">Please sign up</h2>
+
+            <label for="first"><span id="span1">First name</span></label>
+            <input type="text" id="first" name="first" placeholder="First name" size="25"
+                style="height: 30px;padding-top: 0px;"><br>
+            <span id="span12" style="top: 165px">Please provide a valid First name</span>
+
+            <label for="last"><span id="span2">Last name</span></label>
+            <input type="text" id="last" name="last" placeholder="Last name" size="25"
+                style="height: 30px;padding-top: 0px;"><br>
+            <span id="span22" style="top: 235px;">Please provide a valid Last name</span>
+
+            <label for="email"><span id="span3">Email address</span></label>
+            <input type="email" name="email" id="email" placeholder="Email address" size="25"><br>
+            <span id="span32" style="top: 310px;">Please provide a valid Email address</span>
+
+            <label for="parol"><span id="span4">Password</span></label>
+            <input type="password" name="parol" id="parol" placeholder="Password" size="25"><br>
+            <span id="span42" style="top: 380px;">Please provide a valid Password</span><br>
+
+            <input type="button" value="SignUp" id="SignUp" onclick="signUp()" style="background-color:dodgerblue; cursor: pointer;
+            color: white; width: 250px;" >
+            <a href="#" class="ss1" style="color: dodgerblue;" onclick="ss1()">Sign In now</a>
+
+        </form>
+      
+            <form class="forma2" style="position: absolute;display: none;" name="f2">
+                <h3 style="margin:10px;padding-left: 20%;font-weight: lighter;">Please sign up</h3>
+       
+                
+                <input type="email2" name="email" id="email2" placeholder="Email address" size="25"><br><br>
+                <input type="password" name="parol2" id="parol2" placeholder="Password" size="25"><br><br>
+                <span id="span_42" style="top: 200px;">Incorrect email or password</span>
+  
+                <input type="button" value="SignIn" id="Sign2" onclick="sign()" style="background-color:green; cursor: pointer;
+                color: white; width: 250px;" >
+                <a href="#" class="ss2" style="color: dodgerblue;" onclick="ss2()">Sign Up now</a>
+            </form>
+
+        <div id="great"
+            style="display:none;background-color: white;width: 350px;height: 300px;position: absolute;top: 100px;left: -20px;">
+            <div class="green">
+                <img src="man.png" alt="ok" srcset=""
+                    style="border: 5px solid white;border-radius: 50%;background: white; margin-top: 15px;">
+            </div>
+            <div style="text-align: center;">
+                <h3 class="fn3"> </h3>
+                <h3 class="em"> </h3>
+                <h4>Designer &Web Developing</h4>
+                <input type="button" value="Sign Up" onclick="signUp2()" class="signin">
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

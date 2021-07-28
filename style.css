@@ -1,0 +1,86 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  width: 400px;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.forma {
+  width: 200px;
+  height: 70%;
+  margin: 0 auto;
+  padding: 50px;
+}
+.forma2 {
+  width: 200px;
+  height: 70%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+input:focus {
+  border: 4px solid rgb(69, 149, 214);
+  outline: none;
+}
+
+#span1,
+#span2,
+#span3,
+#span4 {
+  position: relative;
+  visibility: hidden;
+  color: gray;
+  font-size: 12px;
+  padding: 4px;
+  bottom: -25px;
+}
+
+#span12,
+#span22,
+#span32,
+#span42 {
+  font-size: 10px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  visibility: hidden;
+}
+
+
+#span_42  {
+  font-size: 10px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.signin {
+  width: 150px;
+  height: 30px;
+  background-color: green;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  outline-style: none;
+}
+.green{
+  background-color: rgb(46,204,113);
+  width: 100%; 
+  height: 35%;
+  text-align: center
+}
+
